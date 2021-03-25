@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Fractions</h2>
+      <div class="row">
+      
+      
+        <button v-on:change="topfrac += 1">Increase numerator</button>
+        <button v-on:change="topfrac -= 1">decrease numerator</button>
+        <button v-on:change="topfrac += 1">Increase Denominator</button>
+        <button v-on:change="topfrac -= 1">Decrease Denominator</button>
+      </div>
+      <button id="draw button" v-on:click="draw">
+      Draw
+      </button>
+      </div>
+    
+    
+</html>
